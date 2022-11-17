@@ -1,8 +1,8 @@
 const menuEL = document.querySelector(".menuContainer");
 
-const openMenu = () ==> {
+const openMenu = () => {
     menuEL.classList.add("show"); 
 };
-const closeMenu = () ==> {
+const closeMenu = () => {
     menuEL.classList.remove("show");
 };
